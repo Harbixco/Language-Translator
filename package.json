@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-hook-text-to-speech": "^1.0.10"
+  }
+}
