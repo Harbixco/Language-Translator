@@ -36,7 +36,7 @@ app.post("/translate", async function (req, res, next) {
 });
 
 const server = http.createServer(app);
-
+module.exports = app;
 server.listen(4000, function () {
   console.log("listening on port 4000");
 });
