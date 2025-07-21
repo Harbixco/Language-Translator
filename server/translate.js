@@ -1,9 +1,10 @@
-const googleTranslateApi = require('@vitalets/google-translate-api');
+const googleTranslateApi = require("@vitalets/google-translate-api");
 
-googleTranslateApi('Hello, how are you?', { to: 'ha' }).then((res) => {
+googleTranslateApi("Hello, how are you?", { to: "ha" })
+  .then((res) => {
     console.log(res.text);
     console.log(res.from.language.iso);
-}).catch(err => {
+  })
+  .catch((err) => {
     console.error(err);
-});
-
+  });
