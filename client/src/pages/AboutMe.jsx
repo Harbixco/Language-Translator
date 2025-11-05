@@ -16,15 +16,15 @@ function AboutMe(props) {
       <div className='student-bio animate__animated animate__fadeIn'>
         <img src={StudentPhoto} width='100' alt='Logo' />
         <div>
-          <h5>HC2021938474</h5>
+          <h5>FPA/CS/23/3-0199</h5>
           <h6>Matric Number</h6>
         </div>
         <div>
-          <h5>Agbaje Abiodun Kayode</h5>
-          <h6>Department</h6>
+          <h5>Folorunsho Bukola Grace</h5>
+          <h6>Full Name</h6>
         </div>
         <div>
-          <h5>Computer Science</h5>
+          <h5>SWD Computer Science</h5>
           <h6>Department</h6>
         </div>
       </div>
