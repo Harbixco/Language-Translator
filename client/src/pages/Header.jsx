@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.jpg";
 import StudentPhoto from "../assets/avater.jpg";
 import aboutMeModal from "./core/ModalHandler";
 import AboutMe from "./AboutMe";
